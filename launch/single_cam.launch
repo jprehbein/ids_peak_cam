@@ -1,0 +1,6 @@
+<launch>
+  <node name="ids_cam_publisher" pkg="ids_peak_cam" type="ids_peak_cam_node"/>
+  <param name="/Serial_NO" type="string" value="4104657652"/>
+  <param name="/framRate" value="20"/>
+  <param name="/exposureTime" value="14990"/>
+</launch>
